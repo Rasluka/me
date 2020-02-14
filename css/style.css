@@ -1,0 +1,54 @@
+body{
+    background-color: #212121;
+    color: #e4f9f5;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400,700;
+    font-size: 16px;
+}
+
+
+#myDescription {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#myDescription a{
+    position: absolute;
+    text-decoration: none;
+    color: #e4f9f5;
+}
+
+.t1Title {
+    text-align: center;
+    color: #14ffec;
+}
+
+.beautyBar {
+    height: 3px;
+    background-color: #14ffec;
+    border: none;
+    width: 20%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.contentBox {
+    margin: auto;
+  
+    text-align: center;
+}
+
+.entryPic {
+    margin: auto;
+    width: 100px;
+    height: 140px;
+}
+
+
